@@ -16,5 +16,3 @@ Find me on
   <a href="https://github.com/Akshay23504" target="_blank"><span op75 i-simple-icons-github /> GitHub</a>
   <a href="https://www.linkedin.com/in/akshay05/" target="_blank"><span op75 i-simple-icons-linkedin /> LinkedIn</a>
 </p>
-
----
