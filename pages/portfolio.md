@@ -5,7 +5,7 @@ description: My experience, skills & certificates
 wrapperClass: 'text-center'
 art: dots
 projects:
-  Current Focus:
+  Experience:
     - name: 'Vite DevTools'
       link: 'https://github.com/vitejs/devtools'
       desc: 'Inspect the intermediate state of Vite bundle and pipeline'
@@ -19,7 +19,7 @@ projects:
       desc: 'Interactive Playground for learning Nuxt'
       icon: 'i-logos-nuxt-icon saturate-0'
 
-  Nuxt Ecosystem:
+  Education:
     - name: 'Nuxt'
       link: 'https://github.com/nuxt/nuxt'
       desc: 'The intuitive Vue Framework. (Team member)'
@@ -29,7 +29,7 @@ projects:
       desc: 'Interactive Playground for learning Nuxt'
       icon: 'i-logos-nuxt-icon saturate-0'
 
-  DevTools:
+  Certifications:
     - name: 'Nuxt DevTools'
       link: 'https://github.com/nuxt/devtools'
       desc: 'Unleash Nuxt Developer Experience'
