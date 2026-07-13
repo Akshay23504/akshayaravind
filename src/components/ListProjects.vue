@@ -11,6 +11,7 @@ function slug(name: string) {
     <p text-center mt--6 mb5 op50 text-lg italic>
       A straightforward, high-level index of my engineering background, technical skills, education, and credentials at a glance.
     </p>
+    <br>
     <div
       v-for="key, cidx in Object.keys(projects)" :key="key" slide-enter
       :style="{ '--enter-stage': cidx + 1 }"
@@ -23,7 +24,13 @@ function slug(name: string) {
           '--enter-step': '60ms',
         }"
       >
-        <span text-5em color-transparent absolute left--1rem top-0rem font-bold leading-1em text-stroke-1.5 text-stroke-hex-aaa op35 dark:op20>{{ key }}</span>
+        <span
+          text-5em color-transparent absolute top-0rem font-bold
+          leading-1em text-stroke-1.5 text-stroke-hex-aaa op35 dark:op20
+          style="left: 50%; transform: translateX(-50%);"
+        >
+          {{ key }}
+        </span>
       </div>
       <div
         class="project-grid py-2 max-w-500 w-max mx-auto"
