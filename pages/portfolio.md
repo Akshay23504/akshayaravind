@@ -38,6 +38,16 @@ projects:
       link: 'https://github.com/antfu/node-modules-inspector'
       desc: 'Visualize and inspect your node_modules'
       icon: 'i-solar-black-hole-line-duotone'
+  
+  Expertise:
+    - name: 'Nuxt DevTools'
+      link: 'https://github.com/nuxt/devtools'
+      desc: 'Unleash Nuxt Developer Experience'
+      icon: 'i-logos-nuxt-icon saturate-0'
+    - name: 'Node Modules Inspector'
+      link: 'https://github.com/antfu/node-modules-inspector'
+      desc: 'Visualize and inspect your node_modules'
+      icon: 'i-solar-black-hole-line-duotone'
 ---
 
 <!-- @layout-full-width -->
