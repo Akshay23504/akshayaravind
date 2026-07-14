@@ -3,7 +3,7 @@ title: Portfolio - Akshay Aravind
 display: Portfolio
 description: My experience, skills & certificates 
 wrapperClass: 'text-center'
-art: dots
+art: random
 projects:
   Experience:
     - name: 'Vite DevTools'
