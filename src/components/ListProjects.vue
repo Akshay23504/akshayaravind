@@ -25,8 +25,8 @@ function slug(name: string) {
         }"
       >
         <span
-          text-5em color-transparent absolute top-0rem font-bold
-          leading-1em text-stroke-1.5 text-stroke-hex-aaa op35 dark:op20
+          text-1.5em color-transparent absolute top-0rem font-bold
+          leading-3.5em text-stroke-1.0 text-stroke-hex-aaa
           style="left: 50%; transform: translateX(-50%);"
         >
           {{ key }}
