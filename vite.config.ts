@@ -12,14 +12,9 @@ import MarkdownItMagicLink from 'markdown-it-magic-link'
 import TOC from 'markdown-it-table-of-contents'
 import UnoCSS from 'unocss/vite'
 import AutoImport from 'unplugin-auto-import/vite'
-import IconsResolver from 'unplugin-icons/resolver'
-import Icons from 'unplugin-icons/vite'
 import Components from 'unplugin-vue-components/vite'
 import Markdown from 'unplugin-vue-markdown/vite'
 import { defineConfig } from 'vite'
-import Inspect from 'vite-plugin-inspect'
-import Exclude from 'vite-plugin-optimize-exclude'
-import SVG from 'vite-svg-loader'
 import { VueRouterAutoImports } from 'vue-router/unplugin'
 import VueRouter from 'vue-router/vite'
 import { slugify } from './scripts/slugify'
@@ -178,26 +173,7 @@ export default defineConfig({
       extensions: ['vue', 'md'],
       dts: true,
       include: [/\.vue$/, /\.vue\?vue/, /\.md$/],
-      resolvers: [
-        IconsResolver({
-          componentPrefix: '',
-        }),
-      ],
     }),
-
-    Inspect(),
-
-    Icons({
-      defaultClass: 'inline',
-      defaultStyle: 'vertical-align: sub;',
-    }),
-
-    SVG({
-      svgo: false,
-      defaultImport: 'url',
-    }),
-
-    Exclude(),
   ],
 
   build: {
