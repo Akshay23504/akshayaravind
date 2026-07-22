@@ -3,7 +3,7 @@
   "private": true,
   "packageManager": "pnpm@11.2.2",
   "scripts": {
-    "build": "NODE_ENV=production vite-ssg build && tsx ./scripts/copy-fonts.ts && cp _dist_redirects dist/_redirects",
+    "build": "vite-ssg build && tsx ./scripts/copy-fonts.ts",
     "dev": "vite --port 3333 --host",
     "preview": "vite preview",
     "lint": "eslint ."
