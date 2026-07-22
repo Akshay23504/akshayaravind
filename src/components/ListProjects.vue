@@ -9,7 +9,7 @@ function slug(name: string) {
 <template>
   <div class="max-w-300 mx-auto">
     <p text-center mt--6 mb5 op50 text-lg italic>
-      A straightforward, high-level index of my engineering background, technical skills, education, and credentials at a glance.
+      A straightforward, high-level index of my engineering background, technical skills, education, and certifications at a glance.
     </p>
     <br>
     <div
