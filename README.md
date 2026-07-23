@@ -1,7 +1,9 @@
-**[antfu.me](https://antfu.me)**
+**[Akshay Aravind](https://akshayaravind.com)**
 
-my personal website
+My personal website
+
+Personal portfolio and travel photography gallery highlighting technical skills and wilderness exploration.
 
 <br>
 
-<samp>code is licensed under <a href='./LICENSE'>MIT</a>,<br> words and images are licensed under <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>CC BY-NC-SA 4.0</a></samp>.
+<samp>code is licensed under <a href='./LICENSE'>MIT</a><br></samp>
